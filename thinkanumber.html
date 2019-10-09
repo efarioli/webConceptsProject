@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,85 @@
 
     <title>Think a number game</title>
 </head>
-<body>
-        <form class="max-width">
-                <fieldset>
-                  <legend>Please enter a number betwen 1 and 100</legend>
-                  <p>
-                        <label for="number-inputed">Number: </label>
-                    <input type="number" name="numer-inputed" id="number-inputed" min="1" max="100">
-                    
-                  </p>
-                  <button id="btn" class="myButton">Guess</button>
-                  <button id="btn-reset" class="myButton">Reset</button>
-                </fieldset>
-              </form>
-              <div id="message" class="max-width">
-                  <p></p>
 
-              </div>
+<body>
+    <nav>
+        <ul id="brand">
+            <li><img src="./images/logo.png" alt="logo for zeke farioli website"></li>
+            <li>Zeke</li>
+
+        </ul>
+        <ul id="links">
+            <li><a href="./index.html"><img src="./images/mob-nav-login.svg" alt="home icon"><span
+                        class="navtext">Home</span></a></li>
+            <li><a href="./education.html"><img src="./images/mob-nav-edu.svg" alt="education icon"><span class="navtext">Education</span></a></li>
+            <li><a href="./portfolio.html"><img src="./images/mob-nav-portfolio.svg" alt="portfolio icon"><span
+                        class="navtext">Portfolio</span></a></li>
+            <li><a href="./contact.html"><img src="./images/mob-nav-mail.svg" alt="mail icon"><span
+                        class="navtext">Contact</span></a></li>
+        </ul>
+    </nav>
+    <form class="max-width">
+        <fieldset>
+            <legend>Please enter a number betwen 1 and 100</legend>
+            <p>
+                <label for="number-inputed">Number: </label>
+                <input type="number" name="numer-inputed" id="number-inputed" min="1" max="100">
+
+            </p>
+            <button id="btn" class="myButton">Guess</button>
+            <button id="btn-reset" class="myButton">Reset</button>
+        </fieldset>
+    </form>
+    <div id="message" class="max-width">
+        <p></p>
+
+    </div>
     <script src="./scripts/thinkanumber.js"></script>
+    <footer>
+        <div class="inside-footer">
+            <div id="footer" class="max-width">
+                <div class="footer-links">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="https://www.linkedin.com/in/zeke-farioli-9bb273132/" target="_blank"
+                                rel="noopener">
+                                <img src="./images/linkedin-footer.svg" alt="linkedin icon">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/efarioli" target="_blank" rel="noopener">
+                                <img src="./images/github-footer.svg" alt="github icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.freecodecamp.org/efarioli" target="_blank" rel="noopener">
+
+                                <img src="./images/free-code-camp-footer.svg" alt="free code camp icon">
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="mailto:efarioli@gmail.com?Subject=website" target="_top">
+
+                                <img src="./images/mail-footer.svg" alt="envelope icon">
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <p>Ezequiel Farioli &reg; 2019</p>
+
+            </div>
+
+        </div>
+
+
+    </footer>
 </body>
+
 </html>

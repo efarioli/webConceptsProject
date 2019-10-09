@@ -132,7 +132,7 @@ function drawFish(x, y, size, _cFill, _cLine) {
     drawFishSmile(x, y + 25, _cFill, _cLine);
 
 
-    //checkCenterPoint(250, 150);
+    checkCenterPoint(250, 150);
     ctx.restore();
 }
 

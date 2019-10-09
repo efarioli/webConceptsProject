@@ -1,13 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <meta name="description" content="portfolio website ezequiel zeke farioli javascript html css Staffordshire university">
+
+    <title>Contact Page</title>
 </head>
+
 <body>
-    <h1>Contact Page</h1>
-    
+    <div class="fullpage">
+        <nav>
+            <ul id="brand">
+                <li><img src="./images/logo.png" alt="logo for zeke farioli website"></li>
+                <li>Zeke</li>
+
+            </ul>
+            <ul id="links">
+                <li><a href="./index.html"><img src="./images/mob-nav-login.svg" alt="home icon"><span
+                            class="navtext">Home</span></a></li>
+                <li><a href="./education.html"><img src="./images/mob-nav-edu.svg" alt="education icon"><span
+                            class="navtext">Education</span></a></li>
+                <li><a href="./portfolio.html"><img src="./images/mob-nav-portfolio.svg" alt="portfolio icon"><span
+                            class="navtext">Portfolio</span></a></li>
+                <li><a href="#"><img src="./images/mob-nav-mail.svg" alt="mail icon" class="filter-green"><span
+                            class="navtext">Contact</span></a></li>
+
+            </ul>
+        </nav>
+        <div class="mid-wrapper">
+            <header>
+                <h1>Contact</h1>
+
+            </header>
+            <main>
+                <div class="mail">
+                    <img src="./images/mailbox.svg" alt="draw of a mailbox">
+                </div>
+                <form >
+                    <fieldset>
+                        <legend>Contact Details</legend>
+
+
+
+                        <div class="select">
+                            
+                                <label for="title">Title</label>
+
+                            <select id="title" name="title" class="select-text" >
+                                <option value="mr">Mr</option>
+                                <option value="mrs">Mrs</option>
+                                <option value="miss">Miss</option>
+                                <option value="">Ms</option>
+                            </select>
+                            <span class="select-highlight"></span>
+                            <span class="select-bar"></span>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="group">
+                            <label>Full Name</label>
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+
+                        </div>
+
+
+                        <div class="choices">
+
+                            <div>
+                                <div class="md-checkbox">
+                                    <input id="home-phone" class="double" type="checkbox">
+                                    <label for="home-phone">Home</label>
+                                </div>
+                                <div class="md-checkbox">
+                                    <input id="work-phone" type="checkbox">
+                                    <label for="work-phone">Work</label>
+                                </div>
+
+
+
+                            </div>
+
+                            <div>
+                                <label for="radItem1" class="md-radio has--add-text">
+                                    <input type="radio" id="radItem1" name="radItem[]" class="md-radio__input">
+                                    <span class="md-radio__custom">
+                                        <span class="md-radio__custom-inner"></span>
+                                    </span>
+                                    Mobile
+                                </label>
+                                <label for="radItem2" class="md-radio has--add-text">
+                                    <input type="radio" id="radItem2" name="radItem[]" class="md-radio__input">
+                                    <span class="md-radio__custom">
+                                        <span class="md-radio__custom-inner"></span>
+                                    </span>
+                                    Landline
+                                </label>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                        <div class="group">
+                            <label>Phone number</label>
+                            <input type="tel" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+
+                        </div>
+                        <div class="group">
+                            <label>Email </label>
+                            <input type="email" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+
+                        </div>
+
+
+                        <div>
+                            <label id="label-outside" for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write your messagge in here"
+                                style="height:200px" required></textarea>
+                        </div>
+
+
+
+
+                        <button class="myButton">Submit</button>
+
+
+                    </fieldset>
+
+                </form>
+
+            </main>
+        </div>
+
+
+
+        <footer>
+            <div class="inside-footer">
+                <div id="footer" class="max-width">
+                    <div class="footer-links">
+                        <ul class="footer-social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/zeke-farioli-9bb273132/" target="_blank" rel="noopener">
+                                    <img src="./images/linkedin-footer.svg" alt="linkedin icon">
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/efarioli" target="_blank" rel="noopener">
+                                    <img src="./images/github-footer.svg" alt="github icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.org/efarioli" target="_blank" rel="noopener">
+
+                                    <img src="./images/free-code-camp-footer.svg" alt="free code camp icon">
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="mailto:efarioli@gmail.com?Subject=website" target="_top">
+
+                                    <img src="./images/mail-footer.svg" alt="envelope icon">
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <p>Ezequiel Farioli &reg; 2019</p>
+
+                </div>
+
+            </div>
+
+
+
+
+        </footer>
+
+    </div>
+
+
+
 </body>
+
 </html>

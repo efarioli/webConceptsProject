@@ -5,7 +5,7 @@
   "background_color": "#637a36",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/https://farioli-portfolio.firebaseapp.com/",
+  "start_url": "https://farioli-portfolio.firebaseapp.com/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

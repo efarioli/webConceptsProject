@@ -8,15 +8,33 @@
     <link rel="stylesheet" href="./styles/normalize.min.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/fishtank.css">
-    <meta name="description" content="Think a number game">
+    <meta name="description" content="portfolio website ezequiel zeke farioli javascript html css Staffordshire university html canvas">
 
-    <title>Think a number game</title>
+
+    <title>Fish tank</title>
 </head>
 
 <body>
+        <nav>
+                <ul id="brand">
+                    <li><img src="./images/logo.png" alt=""></li>
+                    <li>Zeke</li>
+    
+                </ul>
+                <ul id="links">
+                    <li><a href="./index.html"><img src="./images/mob-nav-login.svg" alt="home icon"><span
+                                class="navtext">Home</span></a></li>
+                    <li><a href="./education.html"><img src="./images/mob-nav-edu.svg" alt="education icon"><span class="navtext">Education</span></a></li>
+                    <li><a href="./portfolio.html"><img src="./images/mob-nav-portfolio.svg" alt="portfolio icon"><span
+                                class="navtext">Portfolio</span></a></li>
+                    <li><a href="./contact.html"><img src="./images/mob-nav-mail.svg" alt="mail icon"><span
+                                class="navtext">Contact</span></a></li>
+                </ul>
+            </nav>
+            <h1>Fish Tank Game</h1>
     <div class="container">
         <canvas id="canvas" width="800" height="600"></canvas>
-        <form action="">
+        <form >
             <div>
                     <select id="figure">
                             <option value="fish">Funky Fish</option>
@@ -49,6 +67,49 @@
     </div>
 
     <script src="./scripts/fishtank.js"></script>
+    <footer>
+            <div class="inside-footer">
+                <div id="footer" class="max-width">
+                    <div class="footer-links">
+                        <ul class="footer-social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/zeke-farioli-9bb273132/" target="_blank" rel="noopener">
+                                    <img src="./images/linkedin-footer.svg" alt="linkedin icon">
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/efarioli" target="_blank" rel="noopener">
+                                    <img src="./images/github-footer.svg" alt="github icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.org/efarioli" target="_blank" rel="noopener">
+
+                                    <img src="./images/free-code-camp-footer.svg" alt="free code camp icon">
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="mailto:efarioli@gmail.com?Subject=website" target="_top">
+
+                                    <img src="./images/mail-footer.svg" alt="envelope icon">
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <p>Ezequiel Farioli &reg; 2019</p>
+
+                </div>
+
+            </div>
+
+
+        </footer>
 </body>
 
 </html>

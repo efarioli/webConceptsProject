@@ -28,3 +28,22 @@ p{
 input {
     height: 2em;
 }
+#links {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+footer {
+    margin-bottom: 100px;
+}
+.footer-social {
+    border-width: 0;
+
+}
+form {
+    max-width: 960px;
+    margin: 0 auto;
+}

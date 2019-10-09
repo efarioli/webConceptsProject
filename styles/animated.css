@@ -165,4 +165,14 @@ p {
   .button:hover {
     border-color: transparent transparent transparent #404040;
   }
-  
+  #links {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+footer {
+    margin-bottom: 100px;
+}
