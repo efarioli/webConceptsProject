@@ -1,0 +1,57 @@
+/* // Normalize.css is included
+// The following pure-* classes are pulled from Pure CSSs Grid system, which uses inline-block and has removed cross-browser whitespace discrepencies. I have removed their flexbox additions in order to add them through a separate class for the demo. */
+
+.pure-g {
+    letter-spacing: -.31em;
+    *letter-spacing: normal;
+    *word-spacing: -.43em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+}
+
+.opera-only :-o-prefocus, .pure-g {
+    word-spacing: -.43em;
+}
+
+.pure-u {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.pure-g [class *="pure-u"] {
+    font-family: sans-serif;
+}
+
+/* //start custom classes */
+.container {
+    background: #f2e6a5;
+    padding: 30px;
+    text-align: center;
+}
+
+.child {
+    width: 22%;
+    padding: 20px;
+    margin: 2.5%;
+    background: #f2f2f2;
+    text-align: center;
+}
+/* 
+//flexbox enhancements
+//uncomment to see changes */
+/*.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}*/

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/normalize.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/fishtank.css">
+    <meta name="description" content="Think a number game">
+
+    <title>Think a number game</title>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <form action="">
+            <div>
+                    <select id="figure">
+                            <option value="fish">Funky Fish</option>
+                            <option value="star">Star Fish</option>
+                            <option value="bubble">Bubble</option>
+                            <option value="ornament">Ornament</option>
+            
+                        </select>
+                        <select id="size">
+                            <option value="big">Big</option>
+                            <option value="medium">Medium</option>
+                            <option value="small">Small</option>
+            
+                        </select>
+            
+                        <label for="main-color">Main Colour</label>
+                        <input id="main-color" type="color" value="#ffff00">
+                        <label for="stroke-color">Stroke Colour</label>
+                        <input id="stroke-color" type="color" value="#000000">
+
+            </div>
+            <div>
+                    <button id="reset-btn" type="submit">Reset</button>
+                    <button id="save-btn" type="submit" >Save</button>
+                    <!-- <a id="save-btn" href="#">Save</a> -->
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="./scripts/fishtank.js"></script>
+</body>
+
+</html>

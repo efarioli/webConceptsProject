@@ -1,0 +1,48 @@
+body {
+    max-width: 960px;
+}
+nav { display: block;
+    /* background: purple; */
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    height: 5em;
+    text-align: center;
+   /* margin-bottom: 25px; */
+   overflow: hidden;
+   background: purple;
+}
+main {
+    margin-top: 3em;
+}
+
+
+img {
+    height: 2em;
+    z-index: 25;
+}
+span , a, img {
+    display: inline-block;
+}
+
+p {
+
+    background: yellow;
+}
+
+
+nav > * {
+    font-size: 2rem;
+    width: 15%;
+    height: 2em;
+    display: inline-block;
+}
+nav > a {
+    padding: 5px;
+    outline: 1px red solid;
+}
+nav > a:hover {
+    background: white;
+}

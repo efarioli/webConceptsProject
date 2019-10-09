@@ -1,0 +1,12 @@
+#canvas {
+    background: skyblue;
+    border: 3px black solid;
+    border-top-width: 0;
+    display: block;
+    margin: 4em auto;
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}

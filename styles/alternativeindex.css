@@ -1,0 +1,269 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* css tricks */
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+html {
+    background: url('../images/diagonal-background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #383552;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    /* Make h2 same size h1 */
+    font-size: 2em;
+}
+
+#aboutme>h2 {
+    padding-bottom: 1em;
+}
+
+h3 {
+    color: #637A36;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+#links {
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 64px;
+    height: 10vh;
+    -webkit-box-shadow: -1px -4px 5px 0px rgba(192, 192, 192, 1);
+    -moz-box-shadow: -1px -4px 5px 0px rgba(192, 192, 192, 1);
+    box-shadow: -1px -4px 5px 0px rgba(192, 192, 192, 1);
+    overflow: hidden;
+    background: #ffffff;
+    color: #637A36
+
+
+}
+
+
+#links >  li {
+    border-right: 1px solid silver;
+}
+
+#links > li:last-child {
+    border: 0;
+}
+
+
+.navtext {
+    position: absolute;
+    left: -5000px;
+}
+
+li>img, li> a> img {
+    padding: 5px;
+    /* max-width: 100%; */
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+a li {
+    width: 100%;
+    height: 100%;
+}
+
+
+#brand {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    height: 48px;
+    background: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+#brand>li:nth-child(2) {
+    align-self: flex-end;
+    text-align: right;
+}
+
+#img-contact {
+    
+    width: 100%;
+    
+}
+
+
+#brand > li:nth-child(2) {
+    font-family: Mali;
+    font-weight: 800;
+}
+
+#img-contact>section:nth-child(1)>img {
+    /* max-width: 100%; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+ul.links-social {
+    height: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1em;
+
+    
+}
+
+.links-nav li {
+    margin: 0 auto;
+    border: 1px solid green;
+    
+
+}
+#contact-info div {
+    border: 1px solid green;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+
+.img-block-center {
+    /* max-width: 100%; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.myButton {
+    margin: 1em auto 1em auto;
+    box-shadow: 11px 19px 10px -9px gray;
+    background-color: #637A36;
+    border-radius: 2em;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px black;
+}
+
+.myButton:hover {
+    text-decoration: none;
+    background-color: #B7CC33;
+    ;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+.inside-footer {
+    width: 100%;
+    height: 10em;
+    background: url('../images/background-big.svg');
+    /* background: red; */
+}
+footer>div>div>p {
+    color: white;
+    /* margin-top: 5em; */
+    text-align: center;
+    align-self: end;
+    ;
+}
+#footer {
+    align-self: end;
+}
+
+.filter-green {
+    filter: invert(40%) sepia(44%) saturate(516%) hue-rotate(39deg) brightness(97%) contrast(85%);
+}
+ul.footer-social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    /* border: aqua solid 1px; */
+    /* background: #B7CC33; */
+    margin: 0 auto;
+    height: 3em;
+    margin-bottom: 2em;
+}
+#aboutme {
+    margin-top: 3em;
+}
+#aboutme > article > img {
+    width: 35%;
+    float: left;
+}
+#aboutme::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#aboutme  {
+    text-align: justify;
+    padding: 0 3px;
+    margin-bottom: 2em;
+}
+
+footer>div>div {
+    height: 8em;
+}
+#aboutme>img {
+    width: 90%;
+}
+#footer>div>ul>li>a>img {
+    height: 100%;
+}
+#footer > div > ul > li {
+    height: inherit;
+    height: 6em;
+}
+footer {
+    margin-bottom: 64px;
+}
+footer p {
+    font-family: Mali;
+}
+
+#footer > div {
+    height: 100%;
+}
+

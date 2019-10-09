@@ -1,0 +1,30 @@
+div, form {
+    height: 35vh;
+    
+}
+div {
+    border: black solid 1px;
+
+}
+p{
+    color: black;
+    padding: 0.5 em;
+    margin: 0.5em;
+}
+
+.cold {
+    background: rgb(190, 190, 226);
+}
+.hot {
+    background: rgb(241, 115, 115);
+}
+.win {
+    background: rgb(138, 218, 138);
+}
+#message {
+    max-width: 960px;
+    margin: 0 auto;
+}
+input {
+    height: 2em;
+}
